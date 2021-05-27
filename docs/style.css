@@ -1,3 +1,47 @@
-h1 {
-    color: red;
+body {
+    background-color:rgb(231, 192, 119)
+}
+
+.header {
+    color: rgb(0, 132, 255);
+    background-color: rgb(236, 158, 14);
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "ZCOOL KuaiLe", sans-serif;
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+    display: block;
+}
+
+body{
+    margin: 0;
+}
+.background-text {
+    font-family: "Pattaya", sans-serif;
+    color:rgb(236, 166, 37);
+    text-align: center;
+    font-size: larger;
+}
+
+.intro {
+    color: black;
+    font-family:"ZCOOL KuaiLe", sans-serif;
+    display: block;
+    text-align: center;
 }
