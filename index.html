@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice is how we master html and css</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+    <h1>This is an h1 header</h1>
+    <h2>This is an h2 header</h2>
+    <h3>This is an h3 header</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, et rem assumenda illum voluptates dolores
+        tempora incidunt aut beatae magni nesciunt molestias iusto magnam tenetur harum saepe voluptatem illo fugiat?
+    </p>
+
+    <a href="https://www.overwatch.com">Overwatch</a>
+    <img src="https://www.pngjoy.com/pngm/186/3679479_overwatch-symbol-overwatch-logo-hd-png-download.png">
+
+    <ul>
+        <li>
+            Reasons I like Overwatch
+            <ul>
+                <li>It is fun!</li>
+                <li>It is challenging</li>
+                <li>It is frustrating</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p>span is an inline element used to style inline items <span style="color:green">like this</span></p>
+
+    <div style="color:orange">
+        <p> while div is a block level element used to style blocks</p>
+        <h1>like all of this</h1>
+        <h2>and this</h2>
+        <h3>and this</h3>
+    </div>
+
+    <table style="width:50%">
+        <tr>
+            <th>This</th>
+            <th>Is</th>
+            <th>a</th>
+            <th>table header(th)</th>
+        </tr>
+        <tr>
+            <td>tr</td>
+            <td>defines</td>
+            <td>a</td>
+            <td>table row</td>
+        </tr>
+        <tr>
+            <td>td</td>
+            <td>defines</td>
+            <td>table</td>
+            <td>data</td>
+        </tr>
+
+    </table>
+    <p>forms are an element used to create an html form for user input</p>
+    <form>
+        <label for="text">Text:</label><br>
+        <input type="text" id="text" name="text"><br>
+        <label for="radio">Radio</label><br>
+        <input type="radio" id="radio" name="radio"><br>
+        <label for="checkbox">Checkbox</label><br>
+        <input type="checkbox" id="checkbox" name="checkbox"><br>
+        <label for="submit">Submit</label><br>
+        <input type="submit" id="submit" name="submit"><br>
+        <label for="button">Button</label><br>
+        <button type="button" id="button" name="button">Click me!</button>
+    </form>
+    <textarea>Textarea defines a multi-line text input control</textarea><br>
+
+    <label for="menu">Select and option can create menus:</label>
+
+    <select name="menu" id="menu">
+        <option value="#1">#1</option>
+        <option value="#2">#2</option>
+        <option value="#3">#3</option>
+        <option value="#4">#4</option>
+        <option value="#5">#5</option>
+    </select><br>
+    
+    <script>
+        var user_name = document.getElementById("name");
+        document.getElementById("btn-alert").addEventListener("click", function(){
+            var value=user_name.value.trim();
+            if(!value)
+                alert("Name Cannot be empty!");
+            else
+                alert("Hello, " + value + "!\nGreetings From GeeksforGeeks.");
+        });
+    </script>
+</body>
+
+</html>
